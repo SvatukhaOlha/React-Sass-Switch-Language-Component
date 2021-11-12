@@ -1,6 +1,6 @@
 import SwitchLanguage from './components/header/SwitchLanguage';
 import GetData from './data/getData';
-import {LanguageProvider} from './context/header/languageContext'
+import { LanguageProvider } from './context/header/languageContext'
 
 function App() {
   return (

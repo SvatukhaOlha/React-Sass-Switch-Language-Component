@@ -1,7 +1,6 @@
-import React, {useState, useContext} from 'react'
+import React, {useContext} from 'react'
 import styles from './styles/styles.sass'
 import {LanguageContext} from '../../context/header/languageContext'
-
 
 function SwitchLanguage() {
 

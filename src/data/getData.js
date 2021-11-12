@@ -9,19 +9,18 @@ export default function GetData() {
   useEffect(() => {
     fetch(`${API_URL}${language}`, {
       headers: {
-        Authorization: '0a70a1ca-077bfd47-131563e7-1a80456e',
+        Authorization: API_KEY,
       },
     })
       .then((res) => res.json())
       .then((data) => {
         setDataApi(data.items);
-        console.log(data.items);
       });
   }, [language]);
   return (
     <>
       {dataApi.map((el) => (
-        <p>{el.description}</p>
+        <p key={el.id}>{el.description}</p>
       ))}
     </>
   );
