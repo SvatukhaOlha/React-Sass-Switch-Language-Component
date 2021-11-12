@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap')
+$font_didact_gothic: 'Didact Gothic', sans-serif
+$color_primarly: #141313
+$color_secondary: #fff
+$color_hover: #484848	
+@mixin hover
+	color: $color_secondary
+	background-color: $color_hover
+@mixin box
+	text-align: right
+	font-weight: bold
+	text-transform: uppercase
+	cursor: pointer
+	width: 100px
+	height: 40px
+	padding: 10px 20px
+	transition: all 0.3s ease
+	display: flex
+	justify-content: space-between
+	align-items: center
+@mixin before
+	content: ''
+	display: inline-block
+	background-size: contain
+	background-repeat: no-repeat
+	width: 32px
+	height: 32px
+	margin-top: 10%
+body
+	font-family: $font_didact_gothic
+	color: $color_primarly
+	box-sizing: border-box
+	font-size: 14px
+	letter-spacing: 1px
+a
+	text-decoration: none
+.lang_menu
+	width: 100px
+	text-align: right
+	font-weight: bold
+	margin-top: 25px
+	position: relative
+	left: 90%
+	&:hover
+		ul
+			visibility: visible
+	.selected_lang
+		@include box
+		position: fixed
+		left: 90%
+		&:before
+			@include before
+			background-image: url(img/ru.svg)
+		&:hover
+			@include hover
+			border: 1px solid $color_hover
+	ul
+		margin: 0
+		padding: 0
+		visibility: hidden
+		background-color: $color_secondary
+		border: 1px solid $color_hover
+		position: absolute
+		top: 60px
+		right: -49%
+		li
+			list-style: none
+			text-align: left
+			border-bottom: 1px solid $color_hover
+			&:last-child
+				border: none
+			a
+				@include box
+				text-decoration: none
+				color: $color_primarly
+				display: flex
+				align-items: center
+				justify-content: center
+				&:before
+					@include before
+					width: 25px
+					height: 25px
+					margin-right: 10px
+					vertical-align: middle
+				&:hover
+					color: $color_secondary
+					background-color: $color_hover
+.en
+	&:before
+		background-image: url(img/en.svg)
+.fr
+	&:before
+		background-image: url(img/fr.svg)
+.de
+	&:before
+		background-image: url(img/de.svg)
+.es
+	&:before
+		background-image: url(img/es.svg)
+.it
+	&:before
+		background-image: url(img/it.svg)
+.pl
+	&:before
+		background-image: url(img/pl.svg)
+.ar
+	&:before
+		background-image: url(img/ar.svg)
+
+
+				   
+
+
+	   

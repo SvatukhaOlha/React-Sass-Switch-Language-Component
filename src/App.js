@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import SwitchLanguage from './components/header/SwitchLanguage';
+import GetData from './data/getData';
+import {LanguageProvider} from './context/header/languageContext'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LanguageProvider>
+      <SwitchLanguage />
+      <GetData />
+    </LanguageProvider>
   );
 }
 
