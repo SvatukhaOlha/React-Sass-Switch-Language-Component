@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Sass-Switch-Language-Component/static/css/main.cc3ecda1.chunk.css",
+    "main.js": "/React-Sass-Switch-Language-Component/static/js/main.d928fbd6.chunk.js",
+    "main.js.map": "/React-Sass-Switch-Language-Component/static/js/main.d928fbd6.chunk.js.map",
+    "runtime-main.js": "/React-Sass-Switch-Language-Component/static/js/runtime-main.0a8f8eff.js",
+    "runtime-main.js.map": "/React-Sass-Switch-Language-Component/static/js/runtime-main.0a8f8eff.js.map",
+    "static/js/2.e950cea7.chunk.js": "/React-Sass-Switch-Language-Component/static/js/2.e950cea7.chunk.js",
+    "static/js/2.e950cea7.chunk.js.map": "/React-Sass-Switch-Language-Component/static/js/2.e950cea7.chunk.js.map",
+    "static/js/3.77b20d51.chunk.js": "/React-Sass-Switch-Language-Component/static/js/3.77b20d51.chunk.js",
+    "static/js/3.77b20d51.chunk.js.map": "/React-Sass-Switch-Language-Component/static/js/3.77b20d51.chunk.js.map",
+    "index.html": "/React-Sass-Switch-Language-Component/index.html",
+    "static/css/main.cc3ecda1.chunk.css.map": "/React-Sass-Switch-Language-Component/static/css/main.cc3ecda1.chunk.css.map",
+    "static/js/2.e950cea7.chunk.js.LICENSE.txt": "/React-Sass-Switch-Language-Component/static/js/2.e950cea7.chunk.js.LICENSE.txt",
+    "static/media/styles.sass": "/React-Sass-Switch-Language-Component/static/media/ru.7e04b988.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a8f8eff.js",
+    "static/js/2.e950cea7.chunk.js",
+    "static/css/main.cc3ecda1.chunk.css",
+    "static/js/main.d928fbd6.chunk.js"
+  ]
+}
